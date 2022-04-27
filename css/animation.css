@@ -1,0 +1,166 @@
+.homeSetting{
+    animation: transitionHome 1.5s;
+}
+
+
+@keyframes transitionHome{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.startSetting{
+    background-image: none;
+    animation: transitionStart 1.5s;
+}
+
+@keyframes transitionStart{
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.randomSetting{
+    animation: transitionHome 1.5s;
+}
+
+.browseSetting{
+    animation: transitionBrowse 1.8s;
+}
+
+@keyframes transitionBrowse{
+    from{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+.identitySetting{
+    animation: transitionIdentity 1.5s;
+}
+
+@keyframes transitionIdentity{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes transitionIngredient{
+    from{
+        opacity:0;
+        transform:translateX(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.showRecipe1{
+    animation: transitionIdentity 1.5s;
+}
+
+.ingredient1,.ingredient2,.ingredient4{
+    animation: transitionIngredient 1.5s;
+}
+
+
+
+.recipeSetting{
+    scroll-behavior:smooth;
+}
+
+@keyframes fadeOut{
+    to{
+        opacity:0;
+        
+        /* transform:translateY(-100px); */
+    }
+}
+
+
+
+@keyframes shake {
+    0% { transform: translate(2px, 2px) rotate(0deg); }
+    10% { transform: translate(-1px, -5px) rotate(-10deg); }
+    20% { transform: translate(-5px, 0px) rotate(10deg); }
+    30% { transform: translate(5px, 5px) rotate(0deg); }
+    40% { transform: translate(2px, -2px) rotate(10deg); }
+    50% { transform: translate(-1px, 5px) rotate(-10deg); }
+    60% { transform: translate(-5px, 2px) rotate(0deg); }
+    70% { transform: translate(5px, 2px) rotate(-10deg); }
+    80% { transform: translate(-2px, -2px) rotate(10deg); }
+    90% { transform: translate(2px, 5px) rotate(0deg); }
+    100% { transform: translate(2px, -5px) rotate(-10deg); }
+  }
+/* reference:https://www.w3schools.com/howto/howto_css_shake_image.asp */
+
+
+/* moveRandomGeneratePageBoba */
+@keyframes waitBoba{
+    40% { transform: translateX(90px);}
+    50% { transform: translateX(120px);}
+}
+
+
+
+
+/* @keyframes circle{
+    100% { transform: translate(-10px, -5px) rotate(20deg); }
+    80% { transform: translate(-10px, -5px) }
+} */
+
+
+/* #ice{
+    animation: moveIce 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes moveIce {
+    to {
+      transform: translateY(50px);
+    }
+  } */
+
+
+/* .iceSetting{
+    opacity:1;
+}
+
+.iceAnimation{
+    animation: rotateIce 2s infinite; /*linear*/
+    /* animation-play-state: paused;
+    animation-delay: calc(var(--scroll)* -1.5s);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotateIce {
+    from {
+        transform: translateY(0);
+      }
+    to {
+      transform: translateY(50px);
+    }
+  } */

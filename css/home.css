@@ -1,0 +1,471 @@
+body{
+    height:100vh;
+    background-image: url("../pic/backgroundPic.jpg");
+    background-size: 100% 100%;
+    cursor:none;
+}
+
+body {
+    font-family: Georgia, serif;
+    size: 20px;
+    font-family: Georgia;
+    font-family: Georgia;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#6E5F57;
+    opacity:1;
+}
+.container{
+    height:100vh;
+}
+
+.cursor {
+    height: 30px;
+    width:  30px;
+    border-radius: 50%;    
+    position: absolute;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    background: #6C6058;
+    opacity:0.7;
+    z-index:100;
+  }
+
+
+/*startPage------------------------------------------------------------------ */
+.startPage0{
+    height:35vh;
+}
+
+.startPage1{
+    height:15vh;
+}
+
+.startPage2{
+    height: 40vh;
+}
+
+.startPage3{
+    height: 10vh;
+}
+
+#boba1 {
+    width:130px;
+    z-index:5;
+    position:relative;
+    left:9%;
+}
+#boba2 {
+    width:130px;
+    position:relative;
+    left:-7%;
+    top:1%;
+    z-index:10;
+}
+
+
+#hometitle{
+    position:relative;
+    top:10px;
+    left:10%;
+    font-size: 14px;
+    z-index:99
+}
+
+#startArrow{
+    width:30px;
+}
+
+#heart{
+    width:12px;
+    opacity:0.8;
+    padding-bottom: 4px;
+}
+
+/*homePage------------------------------------------------------------------ */
+
+.homeSetting{
+	transition-property: all;
+	transition-duration: .5s;
+}
+
+.homePage1{
+    height:80vh;
+}
+
+.homePage2{
+    height:20vh;
+}
+
+.homePageBoba1{
+    width:30%;
+}
+
+#homeArrow{
+    width:30px;
+    transform:rotate(180deg);
+}
+
+#homeWords{
+    font-weight:900;
+    font-size:15px;
+    letter-spacing:+0.1em;
+}
+
+.button1{
+    z-index: 5;
+    box-shadow: 5px 5px 10px #b3b3b3;
+    background-color: #EBE7E2;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 20;
+    font-size:22px;
+    font-weight: 300;
+    color: #640000;
+    padding: 10px 40px;
+    font-style:italic;
+}
+
+.button1:hover {
+    background-color: #4D4D4D;
+    box-shadow: 0px 15px 20px #b3b3b3;
+    color: #fff;
+    transform: translateY(-1px);
+    text-decoration-line:none;
+}
+
+.button2 a{
+    z-index: 5;
+    text-align: center;
+    z-index: 20;
+    font-size: 22px; /*1.5vw*/
+    font-weight: 300;
+    font-style:oblique;
+    color: #6C6058;
+}
+
+.checkAll{
+    margin-left:20px;
+}
+.lucky{
+    margin-right:20px;
+}
+
+.button2 a:hover{
+    background-color: #FFFFFF;
+    color: #6C6058;
+    border-width: 2px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    border: 2px solid #6C6058;
+    transform: translateY(-1px);
+    text-decoration-line:none;
+}
+
+/*setIdentity 123 ------------------------------------------------------------------ */
+
+.setIdentityPage{
+    position: relative;
+    height:60vh;
+    min-height:fit-content;
+}
+
+.buttonSelect{
+    z-index: 5;
+    text-align: center;
+    z-index: 20;
+    font-size: 22px; /*1.5vw*/
+    font-weight: 300;
+    font-style:oblique;
+    color: #6C6058;
+}
+
+.buttonSelect:hover {
+    background-color: #FFFFFF;
+    color: #6C6058;
+    border-width: 2px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    border: 2px solid #6C6058;
+    transform: translateY(-1px);
+    text-decoration-line:none;
+}
+
+.back{
+    z-index: 5;
+    color: #6C6058;
+    text-align: center;
+    z-index: 20;
+    font-size: 20px; /*1.5vw*/
+    font-weight: 300;
+    font-style:oblique;
+}
+
+.back:hover{
+    color: #6C6058;
+    text-decoration-line:underline;
+}
+
+/*randomGenerate ------------------------------------------------------------------ */
+
+.randomText{
+    position:relative;
+    top:-50%;
+    color:#6E5F57;
+}
+
+#randomCircle{
+    width:10vw;
+}
+
+#randomCup{
+    width:9vw;
+    position:relative;
+    top:-7%;
+}
+
+/*browseAll ------------------------------------------------------------------ */
+
+.browseSetting{
+    background-image: url("../pic/recipeBackground.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:scroll;
+}
+
+.browseAll{
+    font-style:italic;
+}
+
+#heart2{
+    width:16px;
+    opacity:0.8;
+    padding-bottom: 4px;
+}
+
+#backArrow{
+    width:20px;
+    opacity:0.8;
+    padding-bottom: 4px;
+}
+
+#taroBubbleTea{
+    width: 300px;
+    transform:rotate(15deg);
+}
+
+#taroBubbleTea:hover{
+    width: 350px;
+}
+
+#strawberry{
+    width: 260px;
+    transform:rotate(-30deg);
+}
+
+#strawberry:hover{
+    width: 350px;
+}
+
+#redBean{
+    width: 280px;
+    transform:rotate(30deg);
+}
+
+#redBean:hover{
+    width: 350px;
+}
+
+#passionFruit{
+    width: 300px;
+    transform:rotate(-30deg);
+
+}
+
+#passionFruit:hover{
+    width: 350px;
+}
+
+#matcha{
+    width: 300px;
+    transform:rotate(20deg);
+}
+
+#matcha:hover{
+    width: 350px;
+}
+
+
+.browseWords{
+    position:fixed;
+    text-align:center;
+}
+
+.browse1{
+    height:30vh;
+}
+
+.browse1-1{
+    height:60vh;
+}
+
+.browse2{
+    height: 60vh;
+}
+.browse3{
+    height:40vh;
+}
+.browse4{
+    height:80vh;
+}
+
+#galleryTitle{
+    font-weight:100;
+    font-style:italic;
+    font-size:15px;
+    letter-spacing:+0.1em;
+}
+
+/*findBoba ------------------------------------------------------------------ */
+.findBoba{
+    color:#640000;
+}
+
+/*showRecipe1 ------------------------------------------------------------------ */
+
+.showRecipe{
+    color:#640000;
+    font-size:10px;
+}
+
+#bobaImage{
+    width:30vw;
+    position:relative;
+    left:20%;
+}
+
+.teaTitle{
+    position:relative;
+    top:-50%;
+    left:10%;
+}
+
+.recipeArrow{ /*title of arrow*/
+    position:relative;
+    top:-18%;
+    left:-20%;
+    color:#640000;
+    font-style:italic;
+    font-size:18px;
+}
+
+.recipeArrow:hover{
+    color:#FFF;
+    text-decoration-line:none;
+}
+
+#textBox{
+    width:20vw;
+    min-width:230px;
+    min-height:280px;
+    opacity:0.7;
+    position:relative;
+    top:-8%;
+}
+
+
+/*showRecipe2 ------------------------------------------------------------------ */
+
+.recipeSetting{
+    background-image: url("../pic/recipeBackground.png");
+    background-size: 150%;
+}
+
+.recipePart1{
+    height:190vh;
+}
+/* .recipePart2{
+    height:50vh;
+} */
+
+.ingredient1{
+    height:20vh;
+}
+
+.ingredient2{
+    height:10vh;
+}
+
+.ingredient3{
+    height:10vh;
+}
+
+.ingredient4{
+    height:10vh;
+}
+
+.ingredient5{
+    height:40vh;
+}
+
+.ingredient6{
+    height:105vh;
+}
+
+.ingredient7{
+    height:55vh;
+}
+
+.ingredient8{
+    height:20vh;
+}
+
+.ingredient9{
+    height:100vh;
+}
+
+#downArrow{
+    width:20px;
+    opacity:0.45;
+}
+
+#otherStep{
+    opacity:0.6;
+}
+
+
+#ingredientLeft{
+    width:140px;
+    z-index:20;
+}
+
+#ingredientMid{
+    width:120px;
+    z-index:20;
+    opacity:0.9;
+}
+
+#ingredientRight{
+    width:140px;
+    z-index:30;
+}
+
+#ingredientCup{
+    width:350px;
+    opacity:0.7;
+    z-index:10;
+    position:fixed;
+}
+
+#bobaImage1{
+    width:400px;
+}
+
+#bobaImage2{
+    width:500px;
+}
