@@ -1,4 +1,8 @@
 # pui_project
+Video:
+https://drive.google.com/file/d/1QMV5OnyAJ7T0YC6B0a4fM-KECSO9_K1-/view?usp=sharing
+GitHub Page:
+https://sunnivaliu.github.io/pui_project/html/startPage.html
 
 Description: 
 A creative Boba Recommendation & Recipe website, where users can find their personalized Boba choice and interactive instructions on how to make it.
@@ -38,4 +42,5 @@ I added several scrolling effects on the recipe page to animate the ingredients 
 Major challenges:
 Dealing with Bootstrap formatting is one time-consuming thing for the project. Also, debugging the animation (i.e: to move the Boba ingredients into the Boba cup correctly) is also struggling. Finally, uploading all the Boba elements do take me lots of time.   
 
+Figma:https://www.figma.com/file/73QlF9pbUh7M10qdlM9Ngo/PUI_Final_Project?node-id=0%3A1
 
